@@ -1,0 +1,14 @@
+[Unit]
+Description=loggerDemoen
+After=network.target
+
+
+
+[Service]
+Type = oneshot
+ExecStrart=/home/loggerDemoen/logger.cpp
+
+[Install]
+WantedBy=multi-user.target
+
+
