@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/abdel/loggerDaemon
-# Build directory: /home/abdel/loggerDaemon/build
+# Source directory: /home/abdel/clone/loggerservice
+# Build directory: /home/abdel/clone/loggerservice/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

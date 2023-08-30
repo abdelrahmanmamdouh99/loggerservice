@@ -1,5 +1,6 @@
-CMakeFiles/app.dir/src/app.cpp.o: \
- /home/abdel/clone/loggerservice/src/app.cpp /usr/include/stdc-predef.h \
+CMakeFiles/app.dir/src/sender.cpp.o: \
+ /home/abdel/clone/loggerservice/src/sender.cpp \
+ /usr/include/stdc-predef.h \
  /home/abdel/clone/loggerservice/src/../include/logger.h \
  /usr/local/include/boost/log/trivial.hpp /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

@@ -1,4 +1,4 @@
-# Install script for directory: /home/abdel/loggerDaemon/library
+# Install script for directory: /home/abdel/clone/loggerservice/library
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

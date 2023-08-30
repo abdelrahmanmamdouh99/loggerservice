@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/abdel/loggerDaemon/src/app.cpp" "CMakeFiles/app.dir/src/app.cpp.o" "gcc" "CMakeFiles/app.dir/src/app.cpp.o.d"
+  "/home/abdel/clone/loggerservice/src/app.cpp" "CMakeFiles/app.dir/src/app.cpp.o" "gcc" "CMakeFiles/app.dir/src/app.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/abdel/loggerDaemon/build/library/CMakeFiles/ipclib.dir/DependInfo.cmake"
-  "/home/abdel/loggerDaemon/build/library/CMakeFiles/logger.dir/DependInfo.cmake"
+  "/home/abdel/clone/loggerservice/build/library/CMakeFiles/ipclib.dir/DependInfo.cmake"
+  "/home/abdel/clone/loggerservice/build/library/CMakeFiles/logger.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,6 +1,7 @@
 #ifndef ipclib_h_
 #define ipclib_h_
 
+#include <string>
 
 class MQTTReceiver {
 private:

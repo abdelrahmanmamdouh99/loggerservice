@@ -1,6 +1,6 @@
 library/CMakeFiles/logger.dir/logger.cpp.o: \
- /home/abdel/loggerDaemon/library/logger.cpp /usr/include/stdc-predef.h \
- /usr/local/include/boost/log/expressions.hpp \
+ /home/abdel/clone/loggerservice/library/logger.cpp \
+ /usr/include/stdc-predef.h /usr/local/include/boost/log/expressions.hpp \
  /usr/local/include/boost/log/detail/config.hpp \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -2273,6 +2273,6 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/log/sources/severity_channel_logger.hpp \
  /usr/local/include/boost/log/sources/exception_handler_feature.hpp \
  /usr/local/include/boost/log/attributes/scoped_attribute.hpp \
- /home/abdel/loggerDaemon/library/../include/logger.h \
+ /home/abdel/clone/loggerservice/library/../include/logger.h \
  /usr/local/include/boost/log/trivial.hpp \
  /usr/local/include/boost/log/detail/trivial_keyword.hpp

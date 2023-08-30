@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdel/loggerDaemon
+CMAKE_SOURCE_DIR = /home/abdel/clone/loggerservice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdel/loggerDaemon/build
+CMAKE_BINARY_DIR = /home/abdel/clone/loggerservice/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,14 +97,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/abdel/loggerDaemon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/abdel/loggerDaemon/build/CMakeFiles /home/abdel/loggerDaemon/build/library//CMakeFiles/progress.marks
-	cd /home/abdel/loggerDaemon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdel/loggerDaemon/build/CMakeFiles 0
+	cd /home/abdel/clone/loggerservice/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/abdel/clone/loggerservice/build/CMakeFiles /home/abdel/clone/loggerservice/build/library//CMakeFiles/progress.marks
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdel/clone/loggerservice/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/abdel/loggerDaemon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/clean
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,22 +113,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/abdel/loggerDaemon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/preinstall
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/abdel/loggerDaemon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/preinstall
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/abdel/loggerDaemon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/abdel/clone/loggerservice/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 library/CMakeFiles/logger.dir/rule:
-	cd /home/abdel/loggerDaemon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/logger.dir/rule
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/logger.dir/rule
 .PHONY : library/CMakeFiles/logger.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ logger: library/CMakeFiles/logger.dir/rule
 
 # fast build rule for target.
 logger/fast:
-	cd /home/abdel/loggerDaemon/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/build
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/build
 .PHONY : logger/fast
 
 # Convenience name for target.
 library/CMakeFiles/ipclib.dir/rule:
-	cd /home/abdel/loggerDaemon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/ipclib.dir/rule
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/ipclib.dir/rule
 .PHONY : library/CMakeFiles/ipclib.dir/rule
 
 # Convenience name for target.
@@ -151,7 +151,7 @@ ipclib: library/CMakeFiles/ipclib.dir/rule
 
 # fast build rule for target.
 ipclib/fast:
-	cd /home/abdel/loggerDaemon/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/build
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/build
 .PHONY : ipclib/fast
 
 IPCLib.o: IPCLib.cpp.o
@@ -159,7 +159,7 @@ IPCLib.o: IPCLib.cpp.o
 
 # target to build an object file
 IPCLib.cpp.o:
-	cd /home/abdel/loggerDaemon/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/IPCLib.cpp.o
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/IPCLib.cpp.o
 .PHONY : IPCLib.cpp.o
 
 IPCLib.i: IPCLib.cpp.i
@@ -167,7 +167,7 @@ IPCLib.i: IPCLib.cpp.i
 
 # target to preprocess a source file
 IPCLib.cpp.i:
-	cd /home/abdel/loggerDaemon/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/IPCLib.cpp.i
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/IPCLib.cpp.i
 .PHONY : IPCLib.cpp.i
 
 IPCLib.s: IPCLib.cpp.s
@@ -175,7 +175,7 @@ IPCLib.s: IPCLib.cpp.s
 
 # target to generate assembly for a file
 IPCLib.cpp.s:
-	cd /home/abdel/loggerDaemon/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/IPCLib.cpp.s
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/IPCLib.cpp.s
 .PHONY : IPCLib.cpp.s
 
 logger.o: logger.cpp.o
@@ -183,7 +183,7 @@ logger.o: logger.cpp.o
 
 # target to build an object file
 logger.cpp.o:
-	cd /home/abdel/loggerDaemon/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/logger.cpp.o
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/logger.cpp.o
 .PHONY : logger.cpp.o
 
 logger.i: logger.cpp.i
@@ -191,7 +191,7 @@ logger.i: logger.cpp.i
 
 # target to preprocess a source file
 logger.cpp.i:
-	cd /home/abdel/loggerDaemon/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/logger.cpp.i
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/logger.cpp.i
 .PHONY : logger.cpp.i
 
 logger.s: logger.cpp.s
@@ -199,7 +199,7 @@ logger.s: logger.cpp.s
 
 # target to generate assembly for a file
 logger.cpp.s:
-	cd /home/abdel/loggerDaemon/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/logger.cpp.s
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/logger.cpp.s
 .PHONY : logger.cpp.s
 
 # Help Target
@@ -230,6 +230,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/abdel/loggerDaemon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/abdel/clone/loggerservice/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

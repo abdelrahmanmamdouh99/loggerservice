@@ -26,14 +26,14 @@ add_subdirectory(src)
 
 
 # compile the app.cpp and generate the executable file from the src folder 
-add_executable(app src/app.cpp)
+add_executable(sender src/sender.cpp)
 
 
 #add the include folder to the project "header files"
-target_include_directories(app PRIVATE include)
+target_include_directories(sender PRIVATE include)
 
 #link the interanl libraries with the target
-target_link_libraries(app PRIVATE ${Boost_LIBRARIES} ipclib ${MOSQUITTO_LIBRARIES} logger  pthread)
+target_link_libraries(sender PRIVATE ${Boost_LIBRARIES} ipclib ${MOSQUITTO_LIBRARIES} logger  pthread)
 
 #target_compile_options(app PRIVATE ${MOSQUITTO_CFLAGS_OTHER})
 

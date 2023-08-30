@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/abdel/loggerDaemon
+CMAKE_SOURCE_DIR = /home/abdel/clone/loggerservice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/abdel/loggerDaemon/build
+CMAKE_BINARY_DIR = /home/abdel/clone/loggerservice/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,9 +97,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdel/loggerDaemon/build/CMakeFiles /home/abdel/loggerDaemon/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdel/clone/loggerservice/build/CMakeFiles /home/abdel/clone/loggerservice/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdel/loggerDaemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdel/clone/loggerservice/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,17 +127,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named app
+# Target rules for targets named sender
 
 # Build rule for target.
-app: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app
-.PHONY : app
+sender: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sender
+.PHONY : sender
 
 # fast build rule for target.
-app/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
-.PHONY : app/fast
+sender/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/build
+.PHONY : sender/fast
 
 #=============================================================================
 # Target rules for targets named logger
@@ -165,29 +165,29 @@ ipclib/fast:
 	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/build
 .PHONY : ipclib/fast
 
-src/app.o: src/app.cpp.o
-.PHONY : src/app.o
+src/sender.o: src/sender.cpp.o
+.PHONY : src/sender.o
 
 # target to build an object file
-src/app.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/app.cpp.o
-.PHONY : src/app.cpp.o
+src/sender.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/src/sender.cpp.o
+.PHONY : src/sender.cpp.o
 
-src/app.i: src/app.cpp.i
-.PHONY : src/app.i
+src/sender.i: src/sender.cpp.i
+.PHONY : src/sender.i
 
 # target to preprocess a source file
-src/app.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/app.cpp.i
-.PHONY : src/app.cpp.i
+src/sender.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/src/sender.cpp.i
+.PHONY : src/sender.cpp.i
 
-src/app.s: src/app.cpp.s
-.PHONY : src/app.s
+src/sender.s: src/sender.cpp.s
+.PHONY : src/sender.s
 
 # target to generate assembly for a file
-src/app.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/app.cpp.s
-.PHONY : src/app.cpp.s
+src/sender.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/src/sender.cpp.s
+.PHONY : src/sender.cpp.s
 
 # Help Target
 help:
@@ -198,12 +198,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... app"
 	@echo "... ipclib"
 	@echo "... logger"
-	@echo "... src/app.o"
-	@echo "... src/app.i"
-	@echo "... src/app.s"
+	@echo "... sender"
+	@echo "... src/sender.o"
+	@echo "... src/sender.i"
+	@echo "... src/sender.s"
 .PHONY : help
 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/abdel/loggerDaemon
+# Install script for directory: /home/abdel/clone/loggerservice
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/abdel/loggerDaemon/build/library/cmake_install.cmake")
-  include("/home/abdel/loggerDaemon/build/src/cmake_install.cmake")
+  include("/home/abdel/clone/loggerservice/build/library/cmake_install.cmake")
+  include("/home/abdel/clone/loggerservice/build/src/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/abdel/loggerDaemon/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/abdel/clone/loggerservice/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

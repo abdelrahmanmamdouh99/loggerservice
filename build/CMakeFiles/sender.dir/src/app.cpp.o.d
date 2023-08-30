@@ -1,4 +1,4 @@
-CMakeFiles/app.dir/src/app.cpp.o: \
+CMakeFiles/sender.dir/src/app.cpp.o: \
  /home/abdel/clone/loggerservice/src/app.cpp /usr/include/stdc-predef.h \
  /home/abdel/clone/loggerservice/src/../include/logger.h \
  /usr/local/include/boost/log/trivial.hpp /usr/include/c++/11/cstddef \

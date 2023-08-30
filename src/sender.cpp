@@ -6,11 +6,15 @@
 int main() {
 
     try {
-        std::cout<<"i am the receiver";
-        // Create an MQTTReceiver instance to listen for messages
-        MQTTReceiver receiver;
-        
-        receiver.listen();
+     
+        std::cout<<"I am the sender \n";
+
+        // Create an MQTTSender instance to send messages
+        MQTTSender sender;
+       
+     
+        sender.send("test/topic", "Hello, MQTT! Message ");
+        sleep(2);   
         
 
     } catch (const std::exception& e) {

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/abdel/loggerDaemon/include -I/home/abdel/loggerDaemon/library
+CXX_INCLUDES = -I/home/abdel/clone/loggerservice/include -I/home/abdel/clone/loggerservice/library
 
 CXX_FLAGS = 
 
