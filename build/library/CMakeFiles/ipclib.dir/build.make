@@ -73,15 +73,15 @@ library/CMakeFiles/ipclib.dir/IPCLib.cpp.o: library/CMakeFiles/ipclib.dir/flags.
 library/CMakeFiles/ipclib.dir/IPCLib.cpp.o: ../library/IPCLib.cpp
 library/CMakeFiles/ipclib.dir/IPCLib.cpp.o: library/CMakeFiles/ipclib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdel/clone/loggerservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object library/CMakeFiles/ipclib.dir/IPCLib.cpp.o"
-	cd /home/abdel/clone/loggerservice/build/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/ipclib.dir/IPCLib.cpp.o -MF CMakeFiles/ipclib.dir/IPCLib.cpp.o.d -o CMakeFiles/ipclib.dir/IPCLib.cpp.o -c /home/abdel/clone/loggerservice/library/IPCLib.cpp
+	cd /home/abdel/clone/loggerservice/build/library && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/ipclib.dir/IPCLib.cpp.o -MF CMakeFiles/ipclib.dir/IPCLib.cpp.o.d -o CMakeFiles/ipclib.dir/IPCLib.cpp.o -c /home/abdel/clone/loggerservice/library/IPCLib.cpp
 
 library/CMakeFiles/ipclib.dir/IPCLib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ipclib.dir/IPCLib.cpp.i"
-	cd /home/abdel/clone/loggerservice/build/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abdel/clone/loggerservice/library/IPCLib.cpp > CMakeFiles/ipclib.dir/IPCLib.cpp.i
+	cd /home/abdel/clone/loggerservice/build/library && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abdel/clone/loggerservice/library/IPCLib.cpp > CMakeFiles/ipclib.dir/IPCLib.cpp.i
 
 library/CMakeFiles/ipclib.dir/IPCLib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ipclib.dir/IPCLib.cpp.s"
-	cd /home/abdel/clone/loggerservice/build/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abdel/clone/loggerservice/library/IPCLib.cpp -o CMakeFiles/ipclib.dir/IPCLib.cpp.s
+	cd /home/abdel/clone/loggerservice/build/library && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abdel/clone/loggerservice/library/IPCLib.cpp -o CMakeFiles/ipclib.dir/IPCLib.cpp.s
 
 # Object files for target ipclib
 ipclib_OBJECTS = \

@@ -1,4 +1,4 @@
-/home/abdel/clone/loggerservice/build/CMakeFiles/sender.dir
+/home/abdel/clone/loggerservice/build/CMakeFiles/app.dir
 /home/abdel/clone/loggerservice/build/CMakeFiles/test.dir
 /home/abdel/clone/loggerservice/build/CMakeFiles/edit_cache.dir
 /home/abdel/clone/loggerservice/build/CMakeFiles/rebuild_cache.dir

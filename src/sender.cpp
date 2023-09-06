@@ -2,22 +2,20 @@
 #include "../include/ipclib.h"
 #include <thread>
 #include <iostream>
+#include <memory>
+#include <any>
 
 int main() {
 
     try {
-     
-        std::cout<<"I am the sender \n";
-
-        // Create an MQTTSender instance to send messages
-        MQTTSender sender;
-       
-     
-        sender.send("test/topic", "Hello, MQTT! Message ");
-        sleep(2);   
         
+        MQTTSender sender;
+        sender.send("test/topic", "LOG_TRACE:this is good");
+        sleep(2);       
+        
+    }
 
-    } catch (const std::exception& e) {
+    catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
         return 1;
     }

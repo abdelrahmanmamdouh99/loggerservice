@@ -1,81 +1,87 @@
 library/CMakeFiles/logger.dir/logger.cpp.o: \
  /home/abdel/clone/loggerservice/library/logger.cpp \
- /usr/include/stdc-predef.h /usr/local/include/boost/log/expressions.hpp \
+ /usr/arm-linux-gnueabihf/include/stdc-predef.h \
+ /usr/local/include/boost/log/expressions.hpp \
  /usr/local/include/boost/log/detail/config.hpp \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
- /usr/include/limits.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/features-time64.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/timesize.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/long-double.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/limits.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/syslimits.h \
+ /usr/arm-linux-gnueabihf/include/limits.h \
+ /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
+ /usr/arm-linux-gnueabihf/include/features.h \
+ /usr/arm-linux-gnueabihf/include/features-time64.h \
+ /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+ /usr/arm-linux-gnueabihf/include/bits/timesize.h \
+ /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+ /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
+ /usr/arm-linux-gnueabihf/include/bits/posix1_lim.h \
+ /usr/arm-linux-gnueabihf/include/bits/local_lim.h \
+ /usr/arm-linux-gnueabihf/include/linux/limits.h \
+ /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+ /usr/arm-linux-gnueabihf/include/bits/posix2_lim.h \
+ /usr/arm-linux-gnueabihf/include/bits/xopen_lim.h \
+ /usr/arm-linux-gnueabihf/include/bits/uio_lim.h \
  /usr/local/include/boost/config.hpp \
  /usr/local/include/boost/config/user.hpp \
  /usr/local/include/boost/config/detail/select_compiler_config.hpp \
  /usr/local/include/boost/config/compiler/gcc.hpp \
- /usr/include/c++/11/cstddef \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
- /usr/include/c++/11/pstl/pstl_config.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/cstddef \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/c++config.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/os_defines.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/cpu_defines.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/pstl/pstl_config.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stddef.h \
  /usr/local/include/boost/config/detail/select_stdlib_config.hpp \
- /usr/include/c++/11/version \
+ /usr/arm-linux-gnueabihf/include/c++/11/version \
  /usr/local/include/boost/config/stdlib/libstdcpp3.hpp \
- /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/time64.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h \
+ /usr/arm-linux-gnueabihf/include/unistd.h \
+ /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+ /usr/arm-linux-gnueabihf/include/bits/environments.h \
+ /usr/arm-linux-gnueabihf/include/bits/types.h \
+ /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+ /usr/arm-linux-gnueabihf/include/bits/time64.h \
+ /usr/arm-linux-gnueabihf/include/bits/confname.h \
+ /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
+ /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+ /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+ /usr/arm-linux-gnueabihf/include/linux/close_range.h \
  /usr/local/include/boost/config/detail/select_platform_config.hpp \
  /usr/local/include/boost/config/platform/linux.hpp \
- /usr/include/c++/11/cstdlib /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/x86_64-linux-gnu/sys/types.h \
- /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endianness.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
- /usr/include/x86_64-linux-gnu/sys/select.h \
- /usr/include/x86_64-linux-gnu/bits/select.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
- /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
- /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
- /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
- /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/11/bits/std_abs.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/cstdlib \
+ /usr/arm-linux-gnueabihf/include/stdlib.h \
+ /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+ /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
+ /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+ /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+ /usr/arm-linux-gnueabihf/include/sys/types.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
+ /usr/arm-linux-gnueabihf/include/endian.h \
+ /usr/arm-linux-gnueabihf/include/bits/endian.h \
+ /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+ /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+ /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+ /usr/arm-linux-gnueabihf/include/sys/select.h \
+ /usr/arm-linux-gnueabihf/include/bits/select.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+ /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+ /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+ /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+ /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+ /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+ /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+ /usr/arm-linux-gnueabihf/include/alloca.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/std_abs.h \
  /usr/local/include/boost/config/detail/posix_features.hpp \
  /usr/local/include/boost/config/detail/suffix.hpp \
  /usr/local/include/boost/config/helper_macros.hpp \
@@ -89,10 +95,11 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/thread/detail/platform.hpp \
  /usr/local/include/boost/config/requires_threads.hpp \
  /usr/local/include/boost/thread/detail/thread_safety.hpp \
- /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/arm-linux-gnueabihf/include/time.h \
+ /usr/arm-linux-gnueabihf/include/bits/time.h \
+ /usr/arm-linux-gnueabihf/include/bits/timex.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
  /usr/local/include/boost/log/expressions/attr.hpp \
  /usr/local/include/boost/mpl/bool.hpp \
  /usr/local/include/boost/mpl/bool_fwd.hpp \
@@ -192,7 +199,8 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/preprocessor/arithmetic/sub.hpp \
  /usr/local/include/boost/preprocessor/logical/and.hpp \
  /usr/local/include/boost/preprocessor/control/if.hpp \
- /usr/local/include/boost/proto/proto_fwd.hpp /usr/include/c++/11/climits \
+ /usr/local/include/boost/proto/proto_fwd.hpp \
+ /usr/arm-linux-gnueabihf/include/c++/11/climits \
  /usr/local/include/boost/preprocessor/punctuation/comma.hpp \
  /usr/local/include/boost/preprocessor/repetition/enum_params.hpp \
  /usr/local/include/boost/preprocessor/punctuation/comma_if.hpp \
@@ -504,9 +512,12 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/phoenix/core/environment.hpp \
  /usr/local/include/boost/fusion/sequence/intrinsic/at.hpp \
  /usr/local/include/boost/fusion/support/config.hpp \
- /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
- /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/bits/move.h \
- /usr/include/c++/11/type_traits /usr/include/c++/11/initializer_list \
+ /usr/arm-linux-gnueabihf/include/c++/11/utility \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_relops.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_pair.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/move.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/type_traits \
+ /usr/arm-linux-gnueabihf/include/c++/11/initializer_list \
  /usr/local/include/boost/mpl/empty_base.hpp \
  /usr/local/include/boost/type_traits/is_empty.hpp \
  /usr/local/include/boost/fusion/sequence/intrinsic_fwd.hpp \
@@ -589,82 +600,95 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/fusion/adapted/struct/detail/deref_impl.hpp \
  /usr/local/include/boost/phoenix/support/preprocessed/vector.hpp \
  /usr/local/include/boost/phoenix/support/preprocessed/vector_10.hpp \
- /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/exception.h \
- /usr/include/c++/11/bits/hash_bytes.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/typeinfo \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/exception.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/hash_bytes.h \
  /usr/local/include/boost/phoenix/core/is_nullary.hpp \
  /usr/local/include/boost/phoenix/core/is_actor.hpp \
  /usr/local/include/boost/phoenix/core/meta_grammar.hpp \
  /usr/local/include/boost/proto/transform/default.hpp \
  /usr/local/include/boost/get_pointer.hpp \
  /usr/local/include/boost/config/no_tr1/memory.hpp \
- /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
- /usr/include/c++/11/bits/functexcept.h \
- /usr/include/c++/11/bits/exception_defines.h \
- /usr/include/c++/11/bits/cpp_type_traits.h \
- /usr/include/c++/11/ext/type_traits.h \
- /usr/include/c++/11/ext/numeric_traits.h \
- /usr/include/c++/11/bits/stl_iterator_base_types.h \
- /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/11/bits/concept_check.h \
- /usr/include/c++/11/debug/assertions.h \
- /usr/include/c++/11/bits/stl_iterator.h \
- /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h \
- /usr/include/c++/11/bits/predefined_ops.h \
- /usr/include/c++/11/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
- /usr/include/c++/11/ext/new_allocator.h /usr/include/c++/11/new \
- /usr/include/c++/11/bits/memoryfwd.h \
- /usr/include/c++/11/bits/stl_construct.h \
- /usr/include/c++/11/bits/stl_uninitialized.h \
- /usr/include/c++/11/ext/alloc_traits.h \
- /usr/include/c++/11/bits/alloc_traits.h \
- /usr/include/c++/11/bits/stl_tempbuf.h \
- /usr/include/c++/11/bits/stl_raw_storage_iter.h \
- /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/c++/11/bits/uses_allocator.h \
- /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/tuple \
- /usr/include/c++/11/array /usr/include/c++/11/bits/range_access.h \
- /usr/include/c++/11/bits/invoke.h \
- /usr/include/c++/11/bits/stl_function.h \
- /usr/include/c++/11/backward/binders.h \
- /usr/include/c++/11/bits/functional_hash.h \
- /usr/include/c++/11/bits/shared_ptr.h /usr/include/c++/11/iosfwd \
- /usr/include/c++/11/bits/stringfwd.h /usr/include/c++/11/bits/postypes.h \
- /usr/include/c++/11/cwchar /usr/include/wchar.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/c++/11/bits/shared_ptr_base.h \
- /usr/include/c++/11/bits/allocated_ptr.h \
- /usr/include/c++/11/bits/refwrap.h \
- /usr/include/c++/11/ext/aligned_buffer.h \
- /usr/include/c++/11/ext/atomicity.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h \
- /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
- /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
- /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
- /usr/include/c++/11/ext/concurrence.h /usr/include/c++/11/exception \
- /usr/include/c++/11/bits/exception_ptr.h \
- /usr/include/c++/11/bits/cxxabi_init_exception.h \
- /usr/include/c++/11/bits/nested_exception.h \
- /usr/include/c++/11/bits/shared_ptr_atomic.h \
- /usr/include/c++/11/bits/atomic_base.h \
- /usr/include/c++/11/bits/atomic_lockfree_defines.h \
- /usr/include/c++/11/backward/auto_ptr.h \
- /usr/include/c++/11/pstl/glue_memory_defs.h \
- /usr/include/c++/11/pstl/execution_defs.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/memory \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_algobase.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/functexcept.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/exception_defines.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/cpp_type_traits.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/ext/type_traits.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/ext/numeric_traits.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_iterator_base_types.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_iterator_base_funcs.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/concept_check.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/debug/assertions.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_iterator.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/ptr_traits.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/debug/debug.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/predefined_ops.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/allocator.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/c++allocator.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/ext/new_allocator.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/new \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/memoryfwd.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_construct.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_uninitialized.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/ext/alloc_traits.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/alloc_traits.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_tempbuf.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_raw_storage_iter.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/align.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bit \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/bits/wchar.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/uses_allocator.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/unique_ptr.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/tuple \
+ /usr/arm-linux-gnueabihf/include/c++/11/array \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/range_access.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/invoke.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_function.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/backward/binders.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/functional_hash.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/shared_ptr.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/iosfwd \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stringfwd.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/postypes.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/cwchar \
+ /usr/arm-linux-gnueabihf/include/wchar.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stdarg.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/wint_t.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/mbstate_t.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/shared_ptr_base.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/allocated_ptr.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/refwrap.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/ext/aligned_buffer.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/ext/atomicity.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/gthr.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/gthr-default.h \
+ /usr/arm-linux-gnueabihf/include/pthread.h \
+ /usr/arm-linux-gnueabihf/include/sched.h \
+ /usr/arm-linux-gnueabihf/include/bits/sched.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+ /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+ /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/atomic_word.h \
+ /usr/arm-linux-gnueabihf/include/sys/single_threaded.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/ext/concurrence.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/exception \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/exception_ptr.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/cxxabi_init_exception.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/nested_exception.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/shared_ptr_atomic.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/atomic_base.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/atomic_lockfree_defines.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/backward/auto_ptr.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/pstl/glue_memory_defs.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/pstl/execution_defs.h \
  /usr/local/include/boost/type_traits/is_member_object_pointer.hpp \
  /usr/local/include/boost/proto/transform/arg.hpp \
  /usr/local/include/boost/proto/detail/decltype.hpp \
@@ -730,19 +754,23 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/fusion/view/iterator_range/detail/segmented_iterator_range.hpp \
  /usr/local/include/boost/fusion/algorithm/transformation/push_back.hpp \
  /usr/local/include/boost/fusion/support/detail/as_fusion_element.hpp \
- /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
- /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
- /usr/include/c++/11/bits/hashtable_policy.h \
- /usr/include/c++/11/bits/enable_special_members.h \
- /usr/include/c++/11/bits/node_handle.h \
- /usr/include/c++/11/bits/unordered_map.h \
- /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/bits/stl_algo.h \
- /usr/include/c++/11/bits/algorithmfwd.h \
- /usr/include/c++/11/bits/stl_heap.h \
- /usr/include/c++/11/bits/uniform_int_dist.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/functional \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/std_function.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/unordered_map \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/hashtable.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/hashtable_policy.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/enable_special_members.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/node_handle.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/unordered_map.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/erase_if.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/vector \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_vector.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_bvector.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/vector.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_algo.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/algorithmfwd.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_heap.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/uniform_int_dist.h \
  /usr/local/include/boost/fusion/view/joint_view/joint_view.hpp \
  /usr/local/include/boost/fusion/view/joint_view/joint_view_fwd.hpp \
  /usr/local/include/boost/fusion/support/is_view.hpp \
@@ -849,7 +877,9 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/proto/detail/preprocessed/make_expr_funop.hpp \
  /usr/local/include/boost/proto/detail/make_expr.hpp \
  /usr/local/include/boost/proto/detail/preprocessed/make_expr.hpp \
- /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/cstring \
+ /usr/arm-linux-gnueabihf/include/string.h \
+ /usr/arm-linux-gnueabihf/include/strings.h \
  /usr/local/include/boost/phoenix/core/detail/index_sequence.hpp \
  /usr/local/include/boost/fusion/support/detail/index_sequence.hpp \
  /usr/local/include/boost/log/detail/copy_cv.hpp \
@@ -863,29 +893,41 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/fusion/include/at.hpp \
  /usr/local/include/boost/type_traits/remove_pointer.hpp \
  /usr/local/include/boost/log/attributes/attribute_name.hpp \
- /usr/include/c++/11/string /usr/include/c++/11/bits/char_traits.h \
- /usr/include/c++/11/cstdint /usr/include/c++/11/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
- /usr/include/c++/11/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/cctype \
- /usr/include/ctype.h /usr/include/c++/11/bits/ostream_insert.h \
- /usr/include/c++/11/bits/cxxabi_forced.h \
- /usr/include/c++/11/bits/basic_string.h /usr/include/c++/11/string_view \
- /usr/include/c++/11/bits/string_view.tcc \
- /usr/include/c++/11/ext/string_conversions.h /usr/include/c++/11/cstdio \
- /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/c++/11/cerrno /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /usr/include/c++/11/bits/charconv.h \
- /usr/include/c++/11/bits/basic_string.tcc \
- /usr/local/include/boost/assert.hpp /usr/include/assert.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/string \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/char_traits.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/cstdint \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/localefwd.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/c++locale.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/clocale \
+ /usr/arm-linux-gnueabihf/include/locale.h \
+ /usr/arm-linux-gnueabihf/include/bits/locale.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/cctype \
+ /usr/arm-linux-gnueabihf/include/ctype.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/ostream_insert.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/cxxabi_forced.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/basic_string.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/string_view \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/string_view.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/ext/string_conversions.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/cstdio \
+ /usr/arm-linux-gnueabihf/include/stdio.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/cerrno \
+ /usr/arm-linux-gnueabihf/include/errno.h \
+ /usr/arm-linux-gnueabihf/include/bits/errno.h \
+ /usr/arm-linux-gnueabihf/include/linux/errno.h \
+ /usr/arm-linux-gnueabihf/include/asm/errno.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/errno.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/errno-base.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/error_t.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/charconv.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/basic_string.tcc \
+ /usr/local/include/boost/assert.hpp \
+ /usr/arm-linux-gnueabihf/include/assert.h \
  /usr/local/include/boost/cstdint.hpp \
  /usr/local/include/boost/core/explicit_operator_bool.hpp \
  /usr/local/include/boost/log/attributes/value_extraction.hpp \
@@ -937,7 +979,8 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/mpl/push_back.hpp \
  /usr/local/include/boost/mpl/aux_/push_back_impl.hpp \
  /usr/local/include/boost/log/exceptions.hpp \
- /usr/include/c++/11/stdexcept /usr/local/include/boost/type_index.hpp \
+ /usr/arm-linux-gnueabihf/include/c++/11/stdexcept \
+ /usr/local/include/boost/type_index.hpp \
  /usr/local/include/boost/type_index/stl_type_index.hpp \
  /usr/local/include/boost/type_index/type_index_facade.hpp \
  /usr/local/include/boost/container_hash/hash_fwd.hpp \
@@ -945,8 +988,9 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/exception/exception.hpp \
  /usr/local/include/boost/assert/source_location.hpp \
  /usr/local/include/boost/current_function.hpp \
- /usr/local/include/boost/core/demangle.hpp /usr/include/c++/11/cxxabi.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
+ /usr/local/include/boost/core/demangle.hpp \
+ /usr/arm-linux-gnueabihf/include/c++/11/cxxabi.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/cxxabi_tweaks.h \
  /usr/local/include/boost/type_traits/is_volatile.hpp \
  /usr/local/include/boost/system/error_code.hpp \
  /usr/local/include/boost/system/detail/error_code.hpp \
@@ -954,9 +998,9 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/system/detail/error_category.hpp \
  /usr/local/include/boost/system/detail/config.hpp \
  /usr/local/include/boost/system/detail/requires_cxx11.hpp \
- /usr/include/c++/11/system_error \
- /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
- /usr/include/c++/11/atomic \
+ /usr/arm-linux-gnueabihf/include/c++/11/system_error \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/error_constants.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/atomic \
  /usr/local/include/boost/system/detail/error_condition.hpp \
  /usr/local/include/boost/system/detail/generic_category.hpp \
  /usr/local/include/boost/system/detail/generic_category_message.hpp \
@@ -967,48 +1011,57 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/system/detail/cerrno.hpp \
  /usr/local/include/boost/system/detail/append_int.hpp \
  /usr/local/include/boost/system/detail/snprintf.hpp \
- /usr/include/c++/11/cstdarg \
+ /usr/arm-linux-gnueabihf/include/c++/11/cstdarg \
  /usr/local/include/boost/system/detail/system_category.hpp \
  /usr/local/include/boost/system/detail/system_category_impl.hpp \
  /usr/local/include/boost/system/detail/system_category_message.hpp \
  /usr/local/include/boost/system/detail/interop_category.hpp \
  /usr/local/include/boost/system/detail/std_category.hpp \
- /usr/include/c++/11/ostream /usr/include/c++/11/ios \
- /usr/include/c++/11/bits/ios_base.h \
- /usr/include/c++/11/bits/locale_classes.h \
- /usr/include/c++/11/bits/locale_classes.tcc \
- /usr/include/c++/11/streambuf /usr/include/c++/11/bits/streambuf.tcc \
- /usr/include/c++/11/bits/basic_ios.h \
- /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
- /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
- /usr/include/c++/11/bits/streambuf_iterator.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
- /usr/include/c++/11/bits/locale_facets.tcc \
- /usr/include/c++/11/bits/basic_ios.tcc \
- /usr/include/c++/11/bits/ostream.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/ostream \
+ /usr/arm-linux-gnueabihf/include/c++/11/ios \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/ios_base.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/locale_classes.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/locale_classes.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/streambuf \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/streambuf.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/basic_ios.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/locale_facets.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/cwctype \
+ /usr/arm-linux-gnueabihf/include/wctype.h \
+ /usr/arm-linux-gnueabihf/include/bits/wctype-wchar.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/ctype_base.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/streambuf_iterator.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/ctype_inline.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/locale_facets.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/basic_ios.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/ostream.tcc \
  /usr/local/include/boost/system/error_category.hpp \
  /usr/local/include/boost/system/detail/error_category_impl.hpp \
  /usr/local/include/boost/system/detail/std_category_impl.hpp \
  /usr/local/include/boost/system/detail/mutex.hpp \
- /usr/include/c++/11/mutex /usr/include/c++/11/chrono \
- /usr/include/c++/11/ratio /usr/include/c++/11/limits \
- /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
- /usr/include/c++/11/bits/std_mutex.h \
- /usr/include/c++/11/bits/unique_lock.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/mutex \
+ /usr/arm-linux-gnueabihf/include/c++/11/chrono \
+ /usr/arm-linux-gnueabihf/include/c++/11/ratio \
+ /usr/arm-linux-gnueabihf/include/c++/11/limits \
+ /usr/arm-linux-gnueabihf/include/c++/11/ctime \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/parse_numbers.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/std_mutex.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/unique_lock.h \
  /usr/local/include/boost/system/error_condition.hpp \
  /usr/local/include/boost/system/errc.hpp \
  /usr/local/include/boost/system/generic_category.hpp \
  /usr/local/include/boost/system/system_category.hpp \
  /usr/local/include/boost/system/detail/throws.hpp \
  /usr/local/include/boost/system/system_error.hpp \
- /usr/include/c++/11/cassert /usr/local/include/boost/log/core/record.hpp \
+ /usr/arm-linux-gnueabihf/include/c++/11/cassert \
+ /usr/local/include/boost/log/core/record.hpp \
  /usr/local/include/boost/move/core.hpp \
  /usr/local/include/boost/move/detail/config_begin.hpp \
  /usr/local/include/boost/move/detail/workaround.hpp \
  /usr/local/include/boost/move/detail/config_end.hpp \
  /usr/local/include/boost/log/attributes/attribute_value_set.hpp \
- /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/iterator \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stream_iterator.h \
  /usr/local/include/boost/log/attributes/attribute.hpp \
  /usr/local/include/boost/smart_ptr/intrusive_ptr.hpp \
  /usr/local/include/boost/smart_ptr/detail/requires_cxx11.hpp \
@@ -1123,8 +1176,8 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/type_traits/make_void.hpp \
  /usr/local/include/boost/log/utility/value_ref_fwd.hpp \
  /usr/local/include/boost/log/utility/type_dispatch/static_type_dispatcher.hpp \
- /usr/include/c++/11/algorithm \
- /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/algorithm \
+ /usr/arm-linux-gnueabihf/include/c++/11/pstl/glue_algorithm_defs.h \
  /usr/local/include/boost/array.hpp \
  /usr/local/include/boost/core/swap.hpp \
  /usr/local/include/boost/log/utility/once_block.hpp \
@@ -1166,9 +1219,10 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/log/utility/functional/in_range.hpp \
  /usr/local/include/boost/log/expressions/predicates/is_debugger_present.hpp \
  /usr/local/include/boost/log/expressions/predicates/channel_severity_filter.hpp \
- /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
- /usr/include/c++/11/bits/stl_map.h \
- /usr/include/c++/11/bits/stl_multimap.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/map \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_tree.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_map.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_multimap.h \
  /usr/local/include/boost/log/detail/allocator_traits.hpp \
  /usr/local/include/boost/log/utility/use_std_allocator.hpp \
  /usr/local/include/boost/log/expressions/formatters.hpp \
@@ -1181,13 +1235,14 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/core/uncaught_exceptions.hpp \
  /usr/local/include/boost/log/detail/cleanup_scope_guard.hpp \
  /usr/local/include/boost/log/utility/formatting_ostream.hpp \
- /usr/include/c++/11/locale \
- /usr/include/c++/11/bits/locale_facets_nonio.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/11/bits/codecvt.h \
- /usr/include/c++/11/bits/locale_facets_nonio.tcc \
- /usr/include/c++/11/bits/locale_conv.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/locale \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/locale_facets_nonio.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/time_members.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/messages_members.h \
+ /usr/arm-linux-gnueabihf/include/libintl.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/codecvt.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/locale_facets_nonio.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/locale_conv.h \
  /usr/local/include/boost/utility/string_ref_fwd.hpp \
  /usr/local/include/boost/utility/string_view_fwd.hpp \
  /usr/local/include/boost/log/detail/attachable_sstream_buf.hpp \
@@ -1425,26 +1480,28 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/atomic/detail/capabilities.hpp \
  /usr/local/include/boost/atomic/detail/platform.hpp \
  /usr/local/include/boost/atomic/detail/futex.hpp \
- /usr/include/x86_64-linux-gnu/sys/syscall.h \
- /usr/include/x86_64-linux-gnu/asm/unistd.h \
- /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
- /usr/include/x86_64-linux-gnu/bits/syscall.h /usr/include/linux/futex.h \
- /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
- /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
- /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
- /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
- /usr/include/asm-generic/posix_types.h \
+ /usr/arm-linux-gnueabihf/include/sys/syscall.h \
+ /usr/arm-linux-gnueabihf/include/asm/unistd.h \
+ /usr/arm-linux-gnueabihf/include/asm/unistd-eabi.h \
+ /usr/arm-linux-gnueabihf/include/bits/syscall.h \
+ /usr/arm-linux-gnueabihf/include/linux/futex.h \
+ /usr/arm-linux-gnueabihf/include/linux/types.h \
+ /usr/arm-linux-gnueabihf/include/asm/types.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/int-ll64.h \
+ /usr/arm-linux-gnueabihf/include/asm/bitsperlong.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/bitsperlong.h \
+ /usr/arm-linux-gnueabihf/include/linux/posix_types.h \
+ /usr/arm-linux-gnueabihf/include/linux/stddef.h \
+ /usr/arm-linux-gnueabihf/include/asm/posix_types.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/posix_types.h \
  /usr/local/include/boost/atomic/detail/intptr.hpp \
  /usr/local/include/boost/atomic/detail/header.hpp \
  /usr/local/include/boost/atomic/detail/footer.hpp \
  /usr/local/include/boost/atomic/detail/int_sizes.hpp \
  /usr/local/include/boost/atomic/detail/float_sizes.hpp \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/float.h \
  /usr/local/include/boost/atomic/detail/caps_gcc_atomic.hpp \
- /usr/local/include/boost/atomic/detail/caps_arch_gcc_x86.hpp \
+ /usr/local/include/boost/atomic/detail/caps_arch_gcc_arm.hpp \
  /usr/local/include/boost/atomic/detail/wait_capabilities.hpp \
  /usr/local/include/boost/atomic/detail/wait_caps_futex.hpp \
  /usr/local/include/boost/atomic/detail/classify.hpp \
@@ -1465,7 +1522,6 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/atomic/detail/integral_conversions.hpp \
  /usr/local/include/boost/atomic/detail/type_traits/is_signed.hpp \
  /usr/local/include/boost/atomic/detail/type_traits/make_signed.hpp \
- /usr/local/include/boost/type_traits/make_signed.hpp \
  /usr/local/include/boost/atomic/detail/type_traits/make_unsigned.hpp \
  /usr/local/include/boost/atomic/detail/core_operations.hpp \
  /usr/local/include/boost/atomic/detail/core_arch_operations.hpp \
@@ -1474,7 +1530,11 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/atomic/detail/core_operations_emulated_fwd.hpp \
  /usr/local/include/boost/atomic/detail/lock_pool.hpp \
  /usr/local/include/boost/atomic/detail/link.hpp \
- /usr/local/include/boost/atomic/detail/core_arch_ops_gcc_x86.hpp \
+ /usr/local/include/boost/atomic/detail/core_arch_ops_gcc_arm.hpp \
+ /usr/local/include/boost/atomic/detail/ops_gcc_arm_common.hpp \
+ /usr/local/include/boost/atomic/detail/fence_arch_operations.hpp \
+ /usr/local/include/boost/atomic/detail/fence_arch_ops_gcc_arm.hpp \
+ /usr/local/include/boost/atomic/detail/gcc_arm_asm_common.hpp \
  /usr/local/include/boost/atomic/detail/core_operations_fwd.hpp \
  /usr/local/include/boost/atomic/detail/core_ops_gcc_atomic.hpp \
  /usr/local/include/boost/atomic/detail/gcc_atomic_memory_order_utils.hpp \
@@ -1488,7 +1548,7 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/atomic/detail/extra_ops_generic.hpp \
  /usr/local/include/boost/atomic/detail/extra_operations_fwd.hpp \
  /usr/local/include/boost/atomic/detail/extra_ops_emulated.hpp \
- /usr/local/include/boost/atomic/detail/extra_ops_gcc_x86.hpp \
+ /usr/local/include/boost/atomic/detail/extra_ops_gcc_arm.hpp \
  /usr/local/include/boost/atomic/detail/memory_order_utils.hpp \
  /usr/local/include/boost/atomic/detail/type_traits/is_nothrow_default_constructible.hpp \
  /usr/local/include/boost/atomic/detail/type_traits/is_trivially_default_constructible.hpp \
@@ -1527,7 +1587,7 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/date_time/c_time.hpp \
  /usr/local/include/boost/date_time/compiler_config.hpp \
  /usr/local/include/boost/date_time/locale_config.hpp \
- /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/arm-linux-gnueabihf/include/sys/time.h \
  /usr/local/include/boost/shared_ptr.hpp \
  /usr/local/include/boost/date_time/microsec_time_clock.hpp \
  /usr/local/include/boost/date_time/posix_time/posix_time_types.hpp \
@@ -1535,28 +1595,30 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/date_time/posix_time/posix_time_system.hpp \
  /usr/local/include/boost/date_time/posix_time/posix_time_config.hpp \
  /usr/local/include/boost/config/no_tr1/cmath.hpp \
- /usr/include/c++/11/cmath /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
- /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
- /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
- /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
- /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/11/bits/specfun.h /usr/include/c++/11/tr1/gamma.tcc \
- /usr/include/c++/11/tr1/special_function_util.h \
- /usr/include/c++/11/tr1/bessel_function.tcc \
- /usr/include/c++/11/tr1/beta_function.tcc \
- /usr/include/c++/11/tr1/ell_integral.tcc \
- /usr/include/c++/11/tr1/exp_integral.tcc \
- /usr/include/c++/11/tr1/hypergeometric.tcc \
- /usr/include/c++/11/tr1/legendre_function.tcc \
- /usr/include/c++/11/tr1/modified_bessel_func.tcc \
- /usr/include/c++/11/tr1/poly_hermite.tcc \
- /usr/include/c++/11/tr1/poly_laguerre.tcc \
- /usr/include/c++/11/tr1/riemann_zeta.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/cmath \
+ /usr/arm-linux-gnueabihf/include/math.h \
+ /usr/arm-linux-gnueabihf/include/bits/math-vector.h \
+ /usr/arm-linux-gnueabihf/include/bits/libm-simd-decl-stubs.h \
+ /usr/arm-linux-gnueabihf/include/bits/flt-eval-method.h \
+ /usr/arm-linux-gnueabihf/include/bits/fp-logb.h \
+ /usr/arm-linux-gnueabihf/include/bits/fp-fast.h \
+ /usr/arm-linux-gnueabihf/include/bits/mathcalls-helper-functions.h \
+ /usr/arm-linux-gnueabihf/include/bits/mathcalls.h \
+ /usr/arm-linux-gnueabihf/include/bits/mathcalls-narrow.h \
+ /usr/arm-linux-gnueabihf/include/bits/iscanonical.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/specfun.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/tr1/gamma.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/tr1/special_function_util.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/tr1/bessel_function.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/tr1/beta_function.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/tr1/ell_integral.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/tr1/exp_integral.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/tr1/hypergeometric.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/tr1/legendre_function.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/tr1/modified_bessel_func.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/tr1/poly_hermite.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/tr1/poly_laguerre.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/tr1/riemann_zeta.tcc \
  /usr/local/include/boost/date_time/time_duration.hpp \
  /usr/local/include/boost/date_time/special_defs.hpp \
  /usr/local/include/boost/date_time/time_defs.hpp \
@@ -1586,9 +1648,10 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/date_time/adjust_functors.hpp \
  /usr/local/include/boost/date_time/wrapping_int.hpp \
  /usr/local/include/boost/date_time/date_generators.hpp \
- /usr/include/c++/11/sstream /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc \
- /usr/include/c++/11/bits/sstream.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/sstream \
+ /usr/arm-linux-gnueabihf/include/c++/11/istream \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/istream.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/sstream.tcc \
  /usr/local/include/boost/date_time/date_clock_device.hpp \
  /usr/local/include/boost/date_time/date_iterator.hpp \
  /usr/local/include/boost/date_time/time_system_split.hpp \
@@ -1818,8 +1881,10 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/thread/detail/make_tuple_indices.hpp \
  /usr/local/include/boost/thread/detail/invoke.hpp \
  /usr/local/include/boost/thread/detail/is_convertible.hpp \
- /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
- /usr/include/c++/11/bits/list.tcc /usr/local/include/boost/bind/bind.hpp \
+ /usr/arm-linux-gnueabihf/include/c++/11/list \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_list.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/list.tcc \
+ /usr/local/include/boost/bind/bind.hpp \
  /usr/local/include/boost/bind/detail/requires_cxx11.hpp \
  /usr/local/include/boost/bind/mem_fn.hpp \
  /usr/local/include/boost/bind/mem_fn_template.hpp \
@@ -1834,7 +1899,8 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/bind/bind_mf_cc.hpp \
  /usr/local/include/boost/bind/bind_mf2_cc.hpp \
  /usr/local/include/boost/bind/placeholders.hpp \
- /usr/include/c++/11/stdlib.h /usr/local/include/boost/io/ios_state.hpp \
+ /usr/arm-linux-gnueabihf/include/c++/11/stdlib.h \
+ /usr/local/include/boost/io/ios_state.hpp \
  /usr/local/include/boost/io_fwd.hpp \
  /usr/local/include/boost/functional/hash.hpp \
  /usr/local/include/boost/container_hash/hash.hpp \
@@ -1856,8 +1922,10 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/container_hash/detail/hash_mix.hpp \
  /usr/local/include/boost/container_hash/detail/hash_range.hpp \
  /usr/local/include/boost/container_hash/detail/mulx.hpp \
- /usr/include/c++/11/complex /usr/include/c++/11/typeindex \
- /usr/include/c++/11/optional /usr/include/c++/11/variant \
+ /usr/arm-linux-gnueabihf/include/c++/11/complex \
+ /usr/arm-linux-gnueabihf/include/c++/11/typeindex \
+ /usr/arm-linux-gnueabihf/include/c++/11/optional \
+ /usr/arm-linux-gnueabihf/include/c++/11/variant \
  /usr/local/include/boost/thread/detail/thread_interruption.hpp \
  /usr/local/include/boost/thread/condition_variable.hpp \
  /usr/local/include/boost/thread/pthread/condition_variable.hpp \
@@ -1877,9 +1945,11 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/type_traits/aligned_storage.hpp \
  /usr/local/include/boost/log/keywords/start_thread.hpp \
  /usr/local/include/boost/log/sinks/unbounded_ordering_queue.hpp \
- /usr/include/c++/11/queue /usr/include/c++/11/deque \
- /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
- /usr/include/c++/11/bits/stl_queue.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/queue \
+ /usr/arm-linux-gnueabihf/include/c++/11/deque \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_deque.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/deque.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/stl_queue.h \
  /usr/local/include/boost/log/detail/timestamp.hpp \
  /usr/local/include/boost/log/detail/enqueued_record.hpp \
  /usr/local/include/boost/log/keywords/order.hpp \
@@ -2000,7 +2070,8 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/log/support/date_time.hpp \
  /usr/local/include/boost/date_time/local_time/local_time_types.hpp \
  /usr/local/include/boost/date_time/local_time/local_date_time.hpp \
- /usr/include/c++/11/iomanip /usr/include/c++/11/bits/quoted_string.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/iomanip \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/quoted_string.h \
  /usr/local/include/boost/date_time/posix_time/posix_time.hpp \
  /usr/local/include/boost/date_time/posix_time/time_formatters.hpp \
  /usr/local/include/boost/date_time/gregorian/gregorian.hpp \
@@ -2010,7 +2081,7 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/date_time/parse_format_base.hpp \
  /usr/local/include/boost/date_time/date_format_simple.hpp \
  /usr/local/include/boost/date_time/gregorian/gregorian_io.hpp \
- /usr/include/c++/11/iostream \
+ /usr/arm-linux-gnueabihf/include/c++/11/iostream \
  /usr/local/include/boost/date_time/date_facet.hpp \
  /usr/local/include/boost/algorithm/string/replace.hpp \
  /usr/local/include/boost/algorithm/string/config.hpp \
@@ -2253,10 +2324,10 @@ library/CMakeFiles/logger.dir/logger.cpp.o: \
  /usr/local/include/boost/log/detail/native_typeof.hpp \
  /usr/local/include/boost/log/utility/setup/from_stream.hpp \
  /usr/local/include/boost/log/utility/setup/settings_parser.hpp \
- /usr/include/c++/11/fstream \
- /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc \
+ /usr/arm-linux-gnueabihf/include/c++/11/fstream \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/basic_file.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/c++io.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/bits/fstream.tcc \
  /usr/local/include/boost/log/common.hpp \
  /usr/local/include/boost/log/core.hpp \
  /usr/local/include/boost/log/sources/global_logger_storage.hpp \

@@ -127,17 +127,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sender
+# Target rules for targets named app
 
 # Build rule for target.
-sender: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sender
-.PHONY : sender
+app: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app
+.PHONY : app
 
 # fast build rule for target.
-sender/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/build
-.PHONY : sender/fast
+app/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
+.PHONY : app/fast
 
 #=============================================================================
 # Target rules for targets named logger
@@ -165,29 +165,29 @@ ipclib/fast:
 	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/build
 .PHONY : ipclib/fast
 
-src/sender.o: src/sender.cpp.o
-.PHONY : src/sender.o
+src/app.o: src/app.cpp.o
+.PHONY : src/app.o
 
 # target to build an object file
-src/sender.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/src/sender.cpp.o
-.PHONY : src/sender.cpp.o
+src/app.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/app.cpp.o
+.PHONY : src/app.cpp.o
 
-src/sender.i: src/sender.cpp.i
-.PHONY : src/sender.i
+src/app.i: src/app.cpp.i
+.PHONY : src/app.i
 
 # target to preprocess a source file
-src/sender.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/src/sender.cpp.i
-.PHONY : src/sender.cpp.i
+src/app.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/app.cpp.i
+.PHONY : src/app.cpp.i
 
-src/sender.s: src/sender.cpp.s
-.PHONY : src/sender.s
+src/app.s: src/app.cpp.s
+.PHONY : src/app.s
 
 # target to generate assembly for a file
-src/sender.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/src/sender.cpp.s
-.PHONY : src/sender.cpp.s
+src/app.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/app.cpp.s
+.PHONY : src/app.cpp.s
 
 # Help Target
 help:
@@ -198,12 +198,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... app"
 	@echo "... ipclib"
 	@echo "... logger"
-	@echo "... sender"
-	@echo "... src/sender.o"
-	@echo "... src/sender.i"
-	@echo "... src/sender.s"
+	@echo "... src/app.o"
+	@echo "... src/app.i"
+	@echo "... src/app.s"
 .PHONY : help
 
 

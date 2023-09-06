@@ -1,2 +1,2 @@
-/usr/bin/ar qc libipclib.a CMakeFiles/ipclib.dir/IPCLib.cpp.o
-/usr/bin/ranlib libipclib.a
+/usr/bin/arm-linux-gnueabihf-ar qc libipclib.a CMakeFiles/ipclib.dir/IPCLib.cpp.o
+/usr/bin/arm-linux-gnueabihf-ranlib libipclib.a

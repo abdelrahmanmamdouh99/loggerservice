@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/abdel/clone/loggerservice/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/sender.dir/all
+all: CMakeFiles/app.dir/all
 all: library/all
 all: src/all
 .PHONY : all
@@ -74,7 +74,7 @@ preinstall: src/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/sender.dir/clean
+clean: CMakeFiles/app.dir/clean
 clean: library/clean
 clean: src/clean
 .PHONY : clean
@@ -112,31 +112,31 @@ src/clean:
 .PHONY : src/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/sender.dir
+# Target rules for target CMakeFiles/app.dir
 
 # All Build rule for target.
-CMakeFiles/sender.dir/all: library/CMakeFiles/logger.dir/all
-CMakeFiles/sender.dir/all: library/CMakeFiles/ipclib.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abdel/clone/loggerservice/build/CMakeFiles --progress-num=5,6 "Built target sender"
-.PHONY : CMakeFiles/sender.dir/all
+CMakeFiles/app.dir/all: library/CMakeFiles/logger.dir/all
+CMakeFiles/app.dir/all: library/CMakeFiles/ipclib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abdel/clone/loggerservice/build/CMakeFiles --progress-num=1,2 "Built target app"
+.PHONY : CMakeFiles/app.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sender.dir/rule: cmake_check_build_system
+CMakeFiles/app.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdel/clone/loggerservice/build/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sender.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdel/clone/loggerservice/build/CMakeFiles 0
-.PHONY : CMakeFiles/sender.dir/rule
+.PHONY : CMakeFiles/app.dir/rule
 
 # Convenience name for target.
-sender: CMakeFiles/sender.dir/rule
-.PHONY : sender
+app: CMakeFiles/app.dir/rule
+.PHONY : app
 
 # clean rule for target.
-CMakeFiles/sender.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/clean
-.PHONY : CMakeFiles/sender.dir/clean
+CMakeFiles/app.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/clean
+.PHONY : CMakeFiles/app.dir/clean
 
 #=============================================================================
 # Target rules for target library/CMakeFiles/logger.dir
@@ -145,7 +145,7 @@ CMakeFiles/sender.dir/clean:
 library/CMakeFiles/logger.dir/all:
 	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/depend
 	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abdel/clone/loggerservice/build/CMakeFiles --progress-num=3,4 "Built target logger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abdel/clone/loggerservice/build/CMakeFiles --progress-num=5,6 "Built target logger"
 .PHONY : library/CMakeFiles/logger.dir/all
 
 # Build rule for subdir invocation for target.
@@ -171,7 +171,7 @@ library/CMakeFiles/logger.dir/clean:
 library/CMakeFiles/ipclib.dir/all:
 	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/depend
 	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abdel/clone/loggerservice/build/CMakeFiles --progress-num=1,2 "Built target ipclib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abdel/clone/loggerservice/build/CMakeFiles --progress-num=3,4 "Built target ipclib"
 .PHONY : library/CMakeFiles/ipclib.dir/all
 
 # Build rule for subdir invocation for target.

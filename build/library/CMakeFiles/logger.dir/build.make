@@ -73,15 +73,15 @@ library/CMakeFiles/logger.dir/logger.cpp.o: library/CMakeFiles/logger.dir/flags.
 library/CMakeFiles/logger.dir/logger.cpp.o: ../library/logger.cpp
 library/CMakeFiles/logger.dir/logger.cpp.o: library/CMakeFiles/logger.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdel/clone/loggerservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object library/CMakeFiles/logger.dir/logger.cpp.o"
-	cd /home/abdel/clone/loggerservice/build/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/logger.dir/logger.cpp.o -MF CMakeFiles/logger.dir/logger.cpp.o.d -o CMakeFiles/logger.dir/logger.cpp.o -c /home/abdel/clone/loggerservice/library/logger.cpp
+	cd /home/abdel/clone/loggerservice/build/library && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT library/CMakeFiles/logger.dir/logger.cpp.o -MF CMakeFiles/logger.dir/logger.cpp.o.d -o CMakeFiles/logger.dir/logger.cpp.o -c /home/abdel/clone/loggerservice/library/logger.cpp
 
 library/CMakeFiles/logger.dir/logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logger.dir/logger.cpp.i"
-	cd /home/abdel/clone/loggerservice/build/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abdel/clone/loggerservice/library/logger.cpp > CMakeFiles/logger.dir/logger.cpp.i
+	cd /home/abdel/clone/loggerservice/build/library && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abdel/clone/loggerservice/library/logger.cpp > CMakeFiles/logger.dir/logger.cpp.i
 
 library/CMakeFiles/logger.dir/logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logger.dir/logger.cpp.s"
-	cd /home/abdel/clone/loggerservice/build/library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abdel/clone/loggerservice/library/logger.cpp -o CMakeFiles/logger.dir/logger.cpp.s
+	cd /home/abdel/clone/loggerservice/build/library && /usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abdel/clone/loggerservice/library/logger.cpp -o CMakeFiles/logger.dir/logger.cpp.s
 
 # Object files for target logger
 logger_OBJECTS = \

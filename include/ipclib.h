@@ -11,9 +11,10 @@ public:
     MQTTReceiver();
     ~MQTTReceiver();
     void listen();
-
+//    std::string getReceivedMessage();
 private:
     static void message_callback(struct mosquitto* mosq, void* userdata, const struct mosquitto_message* message);
+    std::string receivedMessage;  // Store received message
 };
 
 
@@ -27,5 +28,10 @@ public:
     void send(const std::string& topic, const std::string& message);
 };
 
+
+
+#include <any>
+
+std::any createObject(bool create);
 
 #endif

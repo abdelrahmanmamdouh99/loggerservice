@@ -13,10 +13,10 @@
 
 
 
-#define LOGFILE "logfile.txt"
+#define LOGFILE "./logfile.txt"
 
-//just log messages with severity >=severity _threthold
-#define SEVERITY_THRESHOLD logging::trivial::warning
+//jus10t log messages with severity >=severity _threthold
+#define SEVERITY_THRESHOLD logging::trivial::trace
 
 
 BOOST_LOG_GLOBAL_LOGGER(logger, boost::log::sources::severity_channel_logger_mt<boost::log::trivial::severity_level>)

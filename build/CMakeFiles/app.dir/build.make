@@ -73,15 +73,15 @@ CMakeFiles/app.dir/src/app.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/app.cpp.o: ../src/app.cpp
 CMakeFiles/app.dir/src/app.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdel/clone/loggerservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/src/app.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/app.cpp.o -MF CMakeFiles/app.dir/src/app.cpp.o.d -o CMakeFiles/app.dir/src/app.cpp.o -c /home/abdel/clone/loggerservice/src/app.cpp
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/app.cpp.o -MF CMakeFiles/app.dir/src/app.cpp.o.d -o CMakeFiles/app.dir/src/app.cpp.o -c /home/abdel/clone/loggerservice/src/app.cpp
 
 CMakeFiles/app.dir/src/app.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/app.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abdel/clone/loggerservice/src/app.cpp > CMakeFiles/app.dir/src/app.cpp.i
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abdel/clone/loggerservice/src/app.cpp > CMakeFiles/app.dir/src/app.cpp.i
 
 CMakeFiles/app.dir/src/app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/app.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abdel/clone/loggerservice/src/app.cpp -o CMakeFiles/app.dir/src/app.cpp.s
+	/usr/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abdel/clone/loggerservice/src/app.cpp -o CMakeFiles/app.dir/src/app.cpp.s
 
 # Object files for target app
 app_OBJECTS = \
@@ -92,16 +92,8 @@ app_EXTERNAL_OBJECTS =
 
 app: CMakeFiles/app.dir/src/app.cpp.o
 app: CMakeFiles/app.dir/build.make
-app: /usr/local/lib/libboost_log_setup.so.1.83.0
-app: /usr/local/lib/libboost_system.so.1.83.0
 app: library/libipclib.a
 app: library/liblogger.a
-app: /usr/local/lib/libboost_log.so.1.83.0
-app: /usr/local/lib/libboost_thread.so.1.83.0
-app: /usr/local/lib/libboost_chrono.so.1.83.0
-app: /usr/local/lib/libboost_filesystem.so.1.83.0
-app: /usr/local/lib/libboost_atomic.so.1.83.0
-app: /usr/local/lib/libboost_regex.so.1.83.0
 app: CMakeFiles/app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abdel/clone/loggerservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
