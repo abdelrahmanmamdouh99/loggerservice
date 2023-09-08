@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/arm-linux-gnueabihf-g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include -I/home/abdel/clone/loggerservice/include -I/home/abdel/clone/loggerservice/library
+CXX_INCLUDES = -I/usr/local/include -I/home/abdel/clone/loggerservice/include
 
 CXX_FLAGS = -g
 

@@ -127,20 +127,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-library/CMakeFiles/logger.dir/rule:
-	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/logger.dir/rule
-.PHONY : library/CMakeFiles/logger.dir/rule
-
-# Convenience name for target.
-logger: library/CMakeFiles/logger.dir/rule
-.PHONY : logger
-
-# fast build rule for target.
-logger/fast:
-	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/build
-.PHONY : logger/fast
-
-# Convenience name for target.
 library/CMakeFiles/ipclib.dir/rule:
 	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/ipclib.dir/rule
 .PHONY : library/CMakeFiles/ipclib.dir/rule
@@ -153,6 +139,20 @@ ipclib: library/CMakeFiles/ipclib.dir/rule
 ipclib/fast:
 	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/build
 .PHONY : ipclib/fast
+
+# Convenience name for target.
+library/CMakeFiles/simpleLogger.dir/rule:
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/simpleLogger.dir/rule
+.PHONY : library/CMakeFiles/simpleLogger.dir/rule
+
+# Convenience name for target.
+simpleLogger: library/CMakeFiles/simpleLogger.dir/rule
+.PHONY : simpleLogger
+
+# fast build rule for target.
+simpleLogger/fast:
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/simpleLogger.dir/build.make library/CMakeFiles/simpleLogger.dir/build
+.PHONY : simpleLogger/fast
 
 IPCLib.o: IPCLib.cpp.o
 .PHONY : IPCLib.o
@@ -178,29 +178,29 @@ IPCLib.cpp.s:
 	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/IPCLib.cpp.s
 .PHONY : IPCLib.cpp.s
 
-logger.o: logger.cpp.o
-.PHONY : logger.o
+simplelogger.o: simplelogger.cpp.o
+.PHONY : simplelogger.o
 
 # target to build an object file
-logger.cpp.o:
-	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/logger.cpp.o
-.PHONY : logger.cpp.o
+simplelogger.cpp.o:
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/simpleLogger.dir/build.make library/CMakeFiles/simpleLogger.dir/simplelogger.cpp.o
+.PHONY : simplelogger.cpp.o
 
-logger.i: logger.cpp.i
-.PHONY : logger.i
+simplelogger.i: simplelogger.cpp.i
+.PHONY : simplelogger.i
 
 # target to preprocess a source file
-logger.cpp.i:
-	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/logger.cpp.i
-.PHONY : logger.cpp.i
+simplelogger.cpp.i:
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/simpleLogger.dir/build.make library/CMakeFiles/simpleLogger.dir/simplelogger.cpp.i
+.PHONY : simplelogger.cpp.i
 
-logger.s: logger.cpp.s
-.PHONY : logger.s
+simplelogger.s: simplelogger.cpp.s
+.PHONY : simplelogger.s
 
 # target to generate assembly for a file
-logger.cpp.s:
-	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/logger.cpp.s
-.PHONY : logger.cpp.s
+simplelogger.cpp.s:
+	cd /home/abdel/clone/loggerservice/build && $(MAKE) $(MAKESILENT) -f library/CMakeFiles/simpleLogger.dir/build.make library/CMakeFiles/simpleLogger.dir/simplelogger.cpp.s
+.PHONY : simplelogger.cpp.s
 
 # Help Target
 help:
@@ -212,13 +212,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ipclib"
-	@echo "... logger"
+	@echo "... simpleLogger"
 	@echo "... IPCLib.o"
 	@echo "... IPCLib.i"
 	@echo "... IPCLib.s"
-	@echo "... logger.o"
-	@echo "... logger.i"
-	@echo "... logger.s"
+	@echo "... simplelogger.o"
+	@echo "... simplelogger.i"
+	@echo "... simplelogger.s"
 .PHONY : help
 
 

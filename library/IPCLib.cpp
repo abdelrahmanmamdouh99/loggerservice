@@ -6,7 +6,7 @@
 #include <mosquitto.h> 
 #include <iostream>
 #include <stdexcept>
-#include <logger.h>
+#include <simplelogger.h>
 
 #include <thread>
 #include <chrono>

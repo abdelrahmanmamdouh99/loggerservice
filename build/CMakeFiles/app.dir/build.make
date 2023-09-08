@@ -92,8 +92,34 @@ app_EXTERNAL_OBJECTS =
 
 app: CMakeFiles/app.dir/src/app.cpp.o
 app: CMakeFiles/app.dir/build.make
+app: /usr/local/lib/libboost_log.so
+app: /usr/local/lib/libboost_log_setup.so
+app: /usr/local/lib/libboost_system.so
+app: /usr/local/lib/libboost_thread.so
+app: /usr/local/lib/libboost_date_time.so
+app: /usr/local/lib/libboost_filesystem.so
+app: /usr/local/lib/libboost_regex.so
+app: /usr/local/lib/libboost_chrono.so
+app: /usr/local/lib/libboost_atomic.so
+app: /usr/local/lib/libboost_log.so
 app: library/libipclib.a
-app: library/liblogger.a
+app: library/libsimpleLogger.a
+app: /usr/local/lib/libboost_date_time.so
+app: /usr/local/lib/libboost_log_setup.so
+app: /usr/local/lib/libboost_filesystem.so
+app: /usr/local/lib/libboost_thread.so
+app: /usr/local/lib/libboost_regex.so
+app: /usr/local/lib/libboost_chrono.so
+app: /usr/local/lib/libboost_atomic.so
+app: /usr/local/lib/libboost_log.so
+app: /usr/local/lib/libboost_log_setup.so
+app: /usr/local/lib/libboost_system.so
+app: /usr/local/lib/libboost_thread.so
+app: /usr/local/lib/libboost_date_time.so
+app: /usr/local/lib/libboost_filesystem.so
+app: /usr/local/lib/libboost_regex.so
+app: /usr/local/lib/libboost_chrono.so
+app: /usr/local/lib/libboost_atomic.so
 app: CMakeFiles/app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abdel/clone/loggerservice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)

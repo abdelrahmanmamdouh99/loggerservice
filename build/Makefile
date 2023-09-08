@@ -140,19 +140,6 @@ app/fast:
 .PHONY : app/fast
 
 #=============================================================================
-# Target rules for targets named logger
-
-# Build rule for target.
-logger: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logger
-.PHONY : logger
-
-# fast build rule for target.
-logger/fast:
-	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/build
-.PHONY : logger/fast
-
-#=============================================================================
 # Target rules for targets named ipclib
 
 # Build rule for target.
@@ -164,6 +151,19 @@ ipclib: cmake_check_build_system
 ipclib/fast:
 	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/build
 .PHONY : ipclib/fast
+
+#=============================================================================
+# Target rules for targets named simpleLogger
+
+# Build rule for target.
+simpleLogger: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simpleLogger
+.PHONY : simpleLogger
+
+# fast build rule for target.
+simpleLogger/fast:
+	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/simpleLogger.dir/build.make library/CMakeFiles/simpleLogger.dir/build
+.PHONY : simpleLogger/fast
 
 src/app.o: src/app.cpp.o
 .PHONY : src/app.o
@@ -200,7 +200,7 @@ help:
 	@echo "... test"
 	@echo "... app"
 	@echo "... ipclib"
-	@echo "... logger"
+	@echo "... simpleLogger"
 	@echo "... src/app.o"
 	@echo "... src/app.i"
 	@echo "... src/app.s"

@@ -2,8 +2,8 @@
 /home/abdel/clone/loggerservice/build/CMakeFiles/test.dir
 /home/abdel/clone/loggerservice/build/CMakeFiles/edit_cache.dir
 /home/abdel/clone/loggerservice/build/CMakeFiles/rebuild_cache.dir
-/home/abdel/clone/loggerservice/build/library/CMakeFiles/logger.dir
 /home/abdel/clone/loggerservice/build/library/CMakeFiles/ipclib.dir
+/home/abdel/clone/loggerservice/build/library/CMakeFiles/simpleLogger.dir
 /home/abdel/clone/loggerservice/build/library/CMakeFiles/test.dir
 /home/abdel/clone/loggerservice/build/library/CMakeFiles/edit_cache.dir
 /home/abdel/clone/loggerservice/build/library/CMakeFiles/rebuild_cache.dir

@@ -1,8 +1,12 @@
+
 cmake_minimum_required(VERSION 3.12)
 project(logger)
 
+set(Boost_NO_WARN_NEW_VERSIONS 1)
+set(Boost_NO_BOOST_CMAKE ON)
 
-set(BOOST_USE_STATIC_LIBS ON)
+
+set(BOOST_USE_STATIC_LIBS OFF)
 set(BOOT_USE_MULTITHREADED ON)
 
 
@@ -33,7 +37,7 @@ add_executable(app src/app.cpp)
 target_include_directories(app PRIVATE include)
 
 #link the interanl libraries with the target
-target_link_libraries(app PRIVATE ${Boost_LIBRARIES} ipclib ${MOSQUITTO_LIBRARIES} logger  pthread)
+target_link_libraries(app PRIVATE ${Boost_LIBRARIES} Boost::log ipclib ${MOSQUITTO_LIBRARIES} simpleLogger pthread)
 
 #target_compile_options(app PRIVATE ${MOSQUITTO_CFLAGS_OTHER})
 

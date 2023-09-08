@@ -83,8 +83,8 @@ clean: src/clean
 # Directory level rules for directory library
 
 # Recursive "all" directory target.
-library/all: library/CMakeFiles/logger.dir/all
 library/all: library/CMakeFiles/ipclib.dir/all
+library/all: library/CMakeFiles/simpleLogger.dir/all
 .PHONY : library/all
 
 # Recursive "preinstall" directory target.
@@ -92,8 +92,8 @@ library/preinstall:
 .PHONY : library/preinstall
 
 # Recursive "clean" directory target.
-library/clean: library/CMakeFiles/logger.dir/clean
 library/clean: library/CMakeFiles/ipclib.dir/clean
+library/clean: library/CMakeFiles/simpleLogger.dir/clean
 .PHONY : library/clean
 
 #=============================================================================
@@ -115,8 +115,8 @@ src/clean:
 # Target rules for target CMakeFiles/app.dir
 
 # All Build rule for target.
-CMakeFiles/app.dir/all: library/CMakeFiles/logger.dir/all
 CMakeFiles/app.dir/all: library/CMakeFiles/ipclib.dir/all
+CMakeFiles/app.dir/all: library/CMakeFiles/simpleLogger.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abdel/clone/loggerservice/build/CMakeFiles --progress-num=1,2 "Built target app"
@@ -137,32 +137,6 @@ app: CMakeFiles/app.dir/rule
 CMakeFiles/app.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/clean
 .PHONY : CMakeFiles/app.dir/clean
-
-#=============================================================================
-# Target rules for target library/CMakeFiles/logger.dir
-
-# All Build rule for target.
-library/CMakeFiles/logger.dir/all:
-	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/depend
-	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abdel/clone/loggerservice/build/CMakeFiles --progress-num=5,6 "Built target logger"
-.PHONY : library/CMakeFiles/logger.dir/all
-
-# Build rule for subdir invocation for target.
-library/CMakeFiles/logger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdel/clone/loggerservice/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/logger.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdel/clone/loggerservice/build/CMakeFiles 0
-.PHONY : library/CMakeFiles/logger.dir/rule
-
-# Convenience name for target.
-logger: library/CMakeFiles/logger.dir/rule
-.PHONY : logger
-
-# clean rule for target.
-library/CMakeFiles/logger.dir/clean:
-	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/logger.dir/build.make library/CMakeFiles/logger.dir/clean
-.PHONY : library/CMakeFiles/logger.dir/clean
 
 #=============================================================================
 # Target rules for target library/CMakeFiles/ipclib.dir
@@ -189,6 +163,32 @@ ipclib: library/CMakeFiles/ipclib.dir/rule
 library/CMakeFiles/ipclib.dir/clean:
 	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/ipclib.dir/build.make library/CMakeFiles/ipclib.dir/clean
 .PHONY : library/CMakeFiles/ipclib.dir/clean
+
+#=============================================================================
+# Target rules for target library/CMakeFiles/simpleLogger.dir
+
+# All Build rule for target.
+library/CMakeFiles/simpleLogger.dir/all:
+	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/simpleLogger.dir/build.make library/CMakeFiles/simpleLogger.dir/depend
+	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/simpleLogger.dir/build.make library/CMakeFiles/simpleLogger.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abdel/clone/loggerservice/build/CMakeFiles --progress-num=5,6 "Built target simpleLogger"
+.PHONY : library/CMakeFiles/simpleLogger.dir/all
+
+# Build rule for subdir invocation for target.
+library/CMakeFiles/simpleLogger.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdel/clone/loggerservice/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 library/CMakeFiles/simpleLogger.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdel/clone/loggerservice/build/CMakeFiles 0
+.PHONY : library/CMakeFiles/simpleLogger.dir/rule
+
+# Convenience name for target.
+simpleLogger: library/CMakeFiles/simpleLogger.dir/rule
+.PHONY : simpleLogger
+
+# clean rule for target.
+library/CMakeFiles/simpleLogger.dir/clean:
+	$(MAKE) $(MAKESILENT) -f library/CMakeFiles/simpleLogger.dir/build.make library/CMakeFiles/simpleLogger.dir/clean
+.PHONY : library/CMakeFiles/simpleLogger.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

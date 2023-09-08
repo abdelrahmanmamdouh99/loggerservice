@@ -1,4 +1,4 @@
-#include "../include/logger.h"
+#include "../include/simplelogger.h"
 #include "../include/ipclib.h"
 #include <thread>
 #include <iostream>

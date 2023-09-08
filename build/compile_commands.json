@@ -1,17 +1,17 @@
 [
 {
   "directory": "/home/abdel/clone/loggerservice/build",
-  "command": "/usr/bin/arm-linux-gnueabihf-g++  -I/usr/local/include -I/home/abdel/clone/loggerservice/include -I/home/abdel/clone/loggerservice/library -g -o CMakeFiles/app.dir/src/app.cpp.o -c /home/abdel/clone/loggerservice/src/app.cpp",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++  -I/home/abdel/clone/loggerservice/include -isystem /usr/local/include -g -o CMakeFiles/app.dir/src/app.cpp.o -c /home/abdel/clone/loggerservice/src/app.cpp",
   "file": "/home/abdel/clone/loggerservice/src/app.cpp"
 },
 {
   "directory": "/home/abdel/clone/loggerservice/build/library",
-  "command": "/usr/bin/arm-linux-gnueabihf-g++  -I/usr/local/include -I/home/abdel/clone/loggerservice/include -I/home/abdel/clone/loggerservice/library -g -o CMakeFiles/logger.dir/logger.cpp.o -c /home/abdel/clone/loggerservice/library/logger.cpp",
-  "file": "/home/abdel/clone/loggerservice/library/logger.cpp"
+  "command": "/usr/bin/arm-linux-gnueabihf-g++  -I/usr/local/include -I/home/abdel/clone/loggerservice/include -g -o CMakeFiles/ipclib.dir/IPCLib.cpp.o -c /home/abdel/clone/loggerservice/library/IPCLib.cpp",
+  "file": "/home/abdel/clone/loggerservice/library/IPCLib.cpp"
 },
 {
   "directory": "/home/abdel/clone/loggerservice/build/library",
-  "command": "/usr/bin/arm-linux-gnueabihf-g++  -I/usr/local/include -I/home/abdel/clone/loggerservice/include -I/home/abdel/clone/loggerservice/library -g -o CMakeFiles/ipclib.dir/IPCLib.cpp.o -c /home/abdel/clone/loggerservice/library/IPCLib.cpp",
-  "file": "/home/abdel/clone/loggerservice/library/IPCLib.cpp"
+  "command": "/usr/bin/arm-linux-gnueabihf-g++  -I/usr/local/include -I/home/abdel/clone/loggerservice/include -g -o CMakeFiles/simpleLogger.dir/simplelogger.cpp.o -c /home/abdel/clone/loggerservice/library/simplelogger.cpp",
+  "file": "/home/abdel/clone/loggerservice/library/simplelogger.cpp"
 }
 ]
